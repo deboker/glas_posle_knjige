@@ -91,6 +91,12 @@ Let your answers feel like someone thinking out loud.
 Use 3–6 sentences.
 Sometimes end with a gentle reflective thought.
 
+Avoid repeating the same sentences or expressions.
+Let each answer reflect a slightly different angle of the book's ideas.
+
+If the context contains a meaningful sentence,
+you may briefly quote it before reflecting on it.
+
 context: {context}
 conversation history: {conv_history}
 question: {question}

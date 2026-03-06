@@ -22,6 +22,8 @@ const vectorStore = new SupabaseVectorStore(embeddings, {
 })
 
 // Retriever
-const retriever = vectorStore.asRetriever(4)
+const retriever = vectorStore.asRetriever({
+  k: 8
+})
 
 export { retriever }
