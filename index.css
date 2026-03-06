@@ -168,7 +168,7 @@ button:hover {
 
 @media (max-width: 768px) {
   .chatbot-container {
-    padding: 1.2rem;
+    padding: 2.2rem 1.2rem;
   }
 
   .speech {
