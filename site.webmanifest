@@ -1,0 +1,19 @@
+{
+  "name": "Glas posle knjige",
+  "short_name": "Glas knjige",
+  "icons": [
+    {
+      "src": "/images/kriss_no_text.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/kriss_no_text.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#111111",
+  "background_color": "#111111",
+  "display": "standalone"
+}
