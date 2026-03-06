@@ -18,7 +18,7 @@ const CHUNK_OVERLAP = 120
 // ---- Env checks ---------------------------------------------------------
 const requiredEnv = [
   "VITE_HUGGINGFACE_API_KEY",
-  "VITE_SUPABASE_URL_GLASS",
+  "VITE_SUPABASE_URL_GLAS",
   "VITE_SUPABASE_API_KEY_GLAS"
 ]
 const missing = requiredEnv.filter((k) => !process.env[k])
