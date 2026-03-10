@@ -2,9 +2,9 @@ import { ChatGroq } from "@langchain/groq"
 import { PromptTemplate } from "@langchain/core/prompts"
 import { StringOutputParser } from "@langchain/core/output_parsers"
 import { RunnablePassthrough, RunnableSequence } from "@langchain/core/runnables"
-import { retriever } from "../utils/retriever.js"
-import { combineDocuments } from "../utils/combineDocuments.js"
-import { formatConvHistory } from "../utils/formatConvHistory.js"
+import { retriever } from "../../utils/retriever.js"
+import { combineDocuments } from "../../utils/combineDocuments.js"
+import { formatConvHistory } from "../../utils/formatConvHistory.js"
 
 const llm = new ChatGroq({
   apiKey: process.env.GROQ_API_KEY,
